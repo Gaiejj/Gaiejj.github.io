@@ -83,8 +83,10 @@
   }
 
   img {
-    max-width: 175px;
-    border-radius: 50%;
+    margin-top: 100px; 
+    width:200px; 
+    height:200px; 
+    border-radius:20px;
 
     @include breakpoint($large) {
       padding: 5px;
@@ -166,7 +168,7 @@
   padding: 10px;
   list-style-type: none;
   border: 1px solid $border-color;
-  border-radius: $border-radius;
+  border-radius: 20px;
   background: #fff;
   z-index: -1;
   box-shadow: 0 0 10px rgba(#000, 0.25);
