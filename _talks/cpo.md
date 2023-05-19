@@ -5,6 +5,4 @@ type: "Talk"
 permalink: https://omnisafe.readthedocs.io/en/latest/saferl/cpo.html
 ---
 
-**This blog has been built in read the docs**
-
 [Read the blog here](https://omnisafe.readthedocs.io/en/latest/saferl/cpo.html)
