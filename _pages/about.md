@@ -11,7 +11,7 @@ redirect_from:
 
 **Jiayi Zhou** is a ✨ _student_ ✨ at **Xi'an Jiao Tong University**.
 
-- 🔭 I’m currently working on **[PKU-MARL](https://github.com/PKU-MARL?type=source)**.
+- 🔭 I’m currently working on **[PKU-Alignment](https://github.com/PKU-Alignment)**.
 - 🌱 I’m currently learning Reinforcement Learning, specifically, **Safe Reinforcement Learning**.
 - 👯 I’m looking to collaborate on coding, docs and so on.
 - 📫 How to reach me: 
