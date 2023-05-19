@@ -17,5 +17,6 @@ redirect_from:
 - 📫 How to reach me: 
 
   📧 edu email: 2204411702@stu.xjtu.edu.cn
+  ☎️  mobile: +86 15220657367
 
 
