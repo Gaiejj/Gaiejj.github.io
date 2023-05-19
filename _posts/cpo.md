@@ -1,7 +1,7 @@
 ---
 title: 'Constraint Policy Optimization'
 date: 2012-08-14
-permalink: /cpo/
+permalink: /posts/cpo/
 tags:
   - cool posts
   - category1
@@ -9,5 +9,3 @@ tags:
 ---
 
 This is a blog to cpo documentation.
-
-https://omnisafe.readthedocs.io/en/latest/saferl/cpo.html
