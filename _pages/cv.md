@@ -34,5 +34,10 @@ Skills
   * [Safety Gymnasium](https://github.com/OmniSafeAI/safety-gymnasium)
 
 Publications
-======
+============
+
+- Jiaming Ji^\*^, **Jiayi Zhou^\*^**, Borong Zhang^\*^, Juntao Dai, Xuehai
+Pan, Ruiyang Sun, Weidong Huang, Yiran Geng, Mickel Liu, and Yaodong
+Yang. Omnisafe: An infrastructure for accelerating safe reinforcement
+learning research, 2023. Planning to submit to JMLR.
   
