@@ -1,11 +1,10 @@
 ---
-title: 'Constraint Policy Optimization'
-date: 2012-08-14
-permalink: /posts/cpo/
-tags:
-  - cool posts
-  - category1
-  - category2
+title: "Conservative Policy Optimization"
+collection: posts
+permalink: /posts/cpo
+paperurl: 'https://omnisafe.readthedocs.io/en/latest/saferl/cpo.html'
 ---
 
-This is a blog to cpo documentation.
+**This blog has been built by read the docs**
+
+[Read the docs here](https://omnisafe.readthedocs.io/en/latest/saferl/cpo.html)
