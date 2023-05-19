@@ -10,34 +10,42 @@ redirect_from:
 {% include base_path %}
 
 Education
-======
+=========
 * B.S. in Xi'an Jiao Tong University, 2020
-* R.A  in Peking University, 2022
+
+- **Major:** Artificial Intelligence (Bachelor of Engineering)
+
+- **GPA: 3.94/4.30 Ranking: 3/67** 
+- **CET-4: 571** **CET-6: 586**
+
+- **Programming Laguage:** Python, MatLab, Latex, reStructuredText, Markdown
+
+- **Other Skills:** Git, PyTorch, TensorBoard, WandB, Pytest
 
 
 Work experience
-======
+===============
 
-* Fall 2022: Research Assistant
-  * Peking University
-  * Duties included: Coding and writing docs
-  * Supervisor: [Professor Yang](https://www.yangyaodong.com/)
+**Research Assitant** (Sept 2022 -- Present)
 
-Skills
-======
-* Docs and writing
+* Location: School of Intelligence Science and Technology, Peking University
+* Supervisor: [Professor Yang](https://www.yangyaodong.com/)
 
-  * [OmniSafe Docs](https://omnisafe.readthedocs.io/en/latest/)
-  * [Safety Gymnasium](https://www.safety-gymnasium.com/en/latest/)
-* Coding
-  * [OmniSafe](https://github.com/OmniSafeAI/omnisafe)
-  * [Safety Gymnasium](https://github.com/OmniSafeAI/safety-gymnasium)
+* Contribution:
 
-Publications
-============
+  * As a core developer, developed **OmniSafe**, the most widely used safe
+  reinforcement learning framework to date.
 
-- Jiaming Ji^\*^, **Jiayi Zhou^\*^**, Borong Zhang^\*^, Juntao Dai, Xuehai
-Pan, Ruiyang Sun, Weidong Huang, Yiran Geng, Mickel Liu, and Yaodong
-Yang. Omnisafe: An infrastructure for accelerating safe reinforcement
-learning research, 2023. Planning to submit to JMLR.
+  * Contributed to the **Safety Gymnasium**, providing a reliable testing
+  benchmark for algorithms in the field of safe reinforcement learning.
+
+  * Independently completed **the entire technical documentation** writing
+  for **OmniSafe**, including API documentation and algorithm tutorials.
+
+Projects
+========
+* [OmniSafe](https://github.com/OmniSafeAI/omnisafe)
+
+* [Safety Gymnasium](https://github.com/OmniSafeAI/safety-gymnasium)
+
   

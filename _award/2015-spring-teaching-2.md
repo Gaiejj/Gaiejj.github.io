@@ -1,8 +1,8 @@
 ---
-title: "Teaching experience 2"
-collection: teaching
+title: "Award 2"
+collection: award
 type: "Workshop"
-permalink: /teaching/2015-spring-teaching-1
+permalink: /award/2015-spring-teaching-1
 venue: "University 1, Department"
 date: 2015-01-01
 location: "City, Country"
