@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Personal Blog"
-permalink: /talks/
+permalink: /blogs/
 author_profile: true
 ---
 
