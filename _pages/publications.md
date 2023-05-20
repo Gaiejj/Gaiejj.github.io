@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-<font size=5>[OmniSafe: An Infrastructure for Accelerating Safe Reinforcement Learning Research](https://arxiv.org/pdf/2305.09304)</font>
+<font size=5>OmniSafe: An Infrastructure for Accelerating Safe Reinforcement Learning Research</font>
 
 This paper is about to submit to JMLR.
 
