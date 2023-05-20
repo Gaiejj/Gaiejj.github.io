@@ -45,6 +45,6 @@ Work experience
 
 **Please download my full resume here**
 
-[My Resume](http://gaiejj.github.io/files/paper1.pdf)
+[My Resume](http://gaiejj.github.io/files/resume.pdf)
 
   

@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Projecs"
+title: "Projects"
 permalink: /projects/
 author_profile: true
 ---
@@ -11,7 +11,7 @@ author_profile: true
 
 **OmniSafe is an infrastructural framework designed to accelerate safe reinforcement learning (RL) research.**
 It provides a comprehensive and reliable benchmark for safe RL algorithms, and also an out-of-box modular toolkit for researchers.
-SafeRL intends to develop algorithms that minimize the risk of unintended harm or unsafe behavior.
+Safe RL intends to develop algorithms that minimize the risk of unintended harm or unsafe behavior.
 
 [See the project here](https://github.com/PKU-Alignment/omnisafe)
 
