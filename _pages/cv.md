@@ -42,10 +42,9 @@ Work experience
   * Independently completed **the entire technical documentation** writing
   for **OmniSafe**, including API documentation and algorithm tutorials.
 
-Projects
-========
-* [OmniSafe](https://github.com/OmniSafeAI/omnisafe)
 
-* [Safety Gymnasium](https://github.com/OmniSafeAI/safety-gymnasium)
+**Please download my full resume here**
+
+[My Resume](http://gaiejj.github.io/files/paper1.pdf)
 
   
