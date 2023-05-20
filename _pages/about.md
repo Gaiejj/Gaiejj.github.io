@@ -14,10 +14,11 @@ redirect_from:
 - 🔭 I’m currently working on **[PKU-Alignment](https://github.com/PKU-Alignment)**.
 - 💻 Research Assitant supervised by [Prof. Yaodong Yang](https://www.yangyaodong.com/)
 - 🌱 My research field is Reinforcement Learning, specifically, **Safe Reinforcement Learning**.
-- 💗 **MBTI**: ~~ENFP~~
+- ~~🔯 **MBTI**: ENFP~~
 - 📫 How to reach me: 
 
   - 📧 edu email: 2204411702@stu.xjtu.edu.cn
+  - 📮 personal email: gaiejj@outlook.com
   - ☎️  mobile: +86 15220657367
 
 
