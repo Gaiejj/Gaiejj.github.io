@@ -12,7 +12,7 @@ redirect_from:
 **Jiayi Zhou** is a ✨ _BS student_ ✨ at **Xi'an Jiao Tong University**.
 
 - 🔭 I’m currently working on **[PKU-Alignment](https://github.com/PKU-Alignment)**.
-- 💻 Research Assitant supervised by [Prof. Yaodong Yang](https://www.yangyaodong.com/)
+- 💻 Research Assistant supervised by [Prof. Yaodong Yang](https://www.yangyaodong.com/)
 - 🌱 My research field is Reinforcement Learning, specifically, **Safe Reinforcement Learning**.
 - ~~🔯 **MBTI**: ENFP~~
 - 📫 How to reach me: 
