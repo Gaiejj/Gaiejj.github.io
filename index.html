@@ -1,0 +1,303 @@
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- Here are the current paper tags:
+1) tag-all (for all papers)
+2) tag-privacy
+3) tag-host-security
+4) tag-network-security
+5) tag-theoretical-foundations
+
+TODO
+
+导航栏
+
+-->
+<html><head>
+<title>Jiayi Zhou's Homepage</title>
+<style type="text/css">
+body {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.caption {
+    font-size: 34px;
+    font-weight: normal;
+    color: #000;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
+.caption-1 {
+    font-size: 16px;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+.caption-2 {
+    font-size: 16px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+    color: #990000;
+}
+.caption-3 {
+    font-size: 16px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+    color: #F00;
+}
+
+.caption-4 {
+    font-size: 16px;
+    font-family: Tahoma, Geneva, sans-serif;
+    color: #990000;
+}
+.content {
+    font-size: 16px;
+    font-family: Tahoma, Geneva, sans-serif;
+    text-align: justify;
+}
+
+.title-small {
+    font-size: 20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: bold;
+    color: #F90;
+}
+.title-large {
+    font-size: 28px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: bold;
+    color: #000;
+}
+.margin {
+    font-size: 10px;
+    line-height: 10px;
+}
+.margin-small {
+    font-size: 5px;
+    line-height: 5px;
+}
+.margin-large {
+    font-size: 16px;
+    line-height: 16px;
+}
+
+
+/* add begin */
+.controls {
+    display: inline-block;
+    margin-left: 10px;
+}
+.controls span {
+    margin-right: 10px;
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+#list li {
+    display: none; /* 默认隐藏所有列表项 */
+}
+
+#list li.default {
+    display: list-item; /* 显示带有 default 类的列表项 */
+}
+/* add end */
+</style>
+<script type="text/javascript"> 
+function displaypage(){
+  $(".tag-all").hide();
+  if(document.getElementById('tag-all-box').checked){
+    $(".tag-all").show();
+  }
+  if(document.getElementById('tag-theoretical-foundations-box').checked){
+    $(".tag-theoretical-foundations").show();
+  }
+  if(document.getElementById('tag-host-security-box').checked){
+    $(".tag-host-security").show();
+  }
+  if(document.getElementById('tag-network-security-box').checked){
+    $(".tag-network-security").show();
+  }
+  if(document.getElementById('tag-privacy-box').checked){
+    $(".tag-privacy").show();
+  }
+
+}
+
+$(document).ready(function() {    
+
+$("#tag-all-box").click(function() {
+  displaypage();
+});   
+$("#tag-theoretical-foundations-box").click(function() {
+  displaypage();
+});
+$("#tag-host-security-box").click(function() {
+  displaypage();
+}); 
+$("#tag-network-security-box").click(function() {
+  displaypage();
+}); 
+$("#tag-privacy-box").click(function() {
+  displaypage();
+}); 
+
+});      
+</script>     
+<meta content="text/html; charset=unicode" http-equiv="Content-Type">
+<meta name="GENERATOR" content="MSHTML 9.00.8112.16443"></head>
+<body>
+
+<table border="0" width="100%">
+  <tbody>
+
+    <tr>
+
+    <td width="185"><table>
+      <tr><td>
+      <img src="imgs/jiayi.jpg"  height="300"></td></tr>
+      </table></td>
+    <td width="15"></td>
+    <td></td>
+    <td><table border="0" width="100%">
+      <tbody><tr height="10">
+        <td colspan="2"></td></tr>
+
+
+         <tr height="20">
+        <td>
+           <p class="caption">Jiayi Zhou (周嘉懿)</p>
+           <p class="content"><strong>Email:</strong> gaiejj@outlook.com</p>
+        </td>
+      </tr>
+      
+      <td>
+      <p class="margin">&nbsp;</p>
+      <p class="content">Hello! I’m a first-year PhD student at the Institute of Artificial Intelligence, Peking University, advised by Prof. <strong style="color:red;"><a href="https://www.yangyaodong.com" style="text-decoration:none">Yaodong Yang</a></strong>.   I previously conducted research on. My past research has focused on safe reinforcement learning, with an emphasis on <a href="https://github.com/PKU-Alignment/omnisafe" style="text-decoration:none">algorithm libraries</a> and <a href="https://github.com/PKU-Alignment/safety-gymnasium" style="text-decoration:none">environment construction</a>. Now, I am broadening my focus to the fields of <b>AI Safety and Alignment</b>. Recently:
+        <br><br>
+        <li class="content"><strong><a href="https://arxiv.org/abs/2310.19852" style="text-decoration:none">AI Alignment</a></strong>: The current significant progress in AI systems, represented by Large Language Models (LLMs), does not stem from a deeper understanding of algorithms or models, but merely from the scaling up. This phenomenon may lead to a deviation of AI systems from human intentions and values, bringing about considerable safety risks. I am actively considering how to improve the trustworthiness, transparency, and safety of AI systems from three aspects: architecture, algorithms, and evaluation.
+        </li>
+        <li class="content"><strong><a href="https://arxiv.org/abs/2406.06144" style="text-decoration:none">Efficient Alignment with Rich Feedback</a></strong>: I am interested in designing more informativeh reward functions to improve alignment efficiency. In my previous research on Safe RL, I focused on designing optimization methods to ensure that agents can balance multi-dimensional reward functions, such as those related to utility and safety. With the current popularity of RLHF, I am now paying attention to how reward models can provide richer language feedback beyond scalar scores. I plan to expand my research into more impressive areas, such as large multimodal models.
+        </li>
+
+        <br>
+
+      <tr height="20">
+        <td>
+          <p class="margin">&nbsp;</p>
+          <strong><a href="https://scholar.google.com/citations?user=rD77vW8AAAAJ&h">Google Scholar</a></strong> | <strong><a href="https://github.com/Gaiejj">GitHub</a></strong>
+        </td>
+      </tr>
+      <tr height="20">
+        <td colspan="2"></td></tr>
+    </tbody></table></td>
+  </tr>
+</tbody></table>
+
+<h2 class="label"><p class="title-large"><a name="publications"><span>News</span></a></p></h2>
+<ul>
+    <li> <p class="content"><strong>2024.09.15</strong>&#20&#20&#20 Our framework: <a href="https://github.com/PKU-Alignment/omnisafe">OmniSafe</a> have accepted by <strong style="color: #990000;">JMLR 2024</strong> (The most popular open-source Safe RL framework).</p>
+    <li> <p class="content"><strong>2023.10.30</strong>&#20&#20&#20 Big News! We released <a href="https://alignmentsurvey.com">AI Alignment: A Comprehensive Survey</a>.</p>
+      <li> <p class="content"><strong>2023.09.27</strong>&#20&#20&#20 Our benchmark: <a href="https://github.com/PKU-Alignment/safety-gymnasium">Safety-Gymnasium</a> have accepted by <strong style="color: #990000;">NeurIPS 2023 (DB Track)</strong> (The most popular open-source Safe RL benchmark).</p>
+</ul>
+
+
+<h2 class="label"><p class="title-large"><a name="awards"><span>Awards</span></a></p></h2>
+<ul>
+<li><p class="content">As a newly enrolled Ph.D. student, I am striving to pursue these awards.</p>
+</li>
+</ul>
+
+
+<h2 class="label"><p class="title-large"><a name="publications"><span>Publications</span></a></p></h2>
+
+<span class="controls">
+  <span id="showSelected">Show Selected Items</span>
+  <span id="showAll">Show All</span>
+</span>
+
+
+<ul id="list">
+
+  <li class="default">
+    <p class="content"><a href="https://arxiv.org/abs/2310.19852">
+        <strong>AI Alignment: A Comprehensive Survey</strong></a>
+        [<a href="https://alignmentsurvey.com"><strong>Website</strong></a>]
+    <p class="content">Jiaming Ji*, Tianyi Qiu, Boyuan Chen, Borong Zhang, Hantao Lou, Kaile Wang, Yawen Duan, Zhonghao He, <strong>Jiayi Zhou</strong>, <br>Zhaowei Zhang, Fanzhi Zeng, Kwan Yee Ng, Juntao Dai, Xuehai Pan, Aidan O'Gara, Yingshan Lei, Hua Xu, Brian Tse, Jie Fu, Stephen McAleer, <br>Yaodong Yang, Yizhou Wang, Song-Chun Zhu, Yike Guo, Wen Gao.</p>
+    <p class="content">Arxiv, 2024.</p>
+    <br>
+  </li>
+
+<li class="default">
+  <p class="content"><a href="https://arxiv.org/abs/2406.06144">
+      <strong>Language Models Resist Alignment</strong></a>
+    [<a href="https://github.com/PKU-Alignment/llms-resist-alignment"><strong>GitHub</strong></a>]
+  <p class="content">Jiaming Ji*, Kaile Wang*, Tianyi Qiu*, Boyuan Chen*, <strong>Jiayi Zhou</strong>, Changye Li, Hantao Lou, Yaodong Yang.</p>
+  <p class="content">Arxiv, 2024.</p>
+  <br>
+</li>
+
+<li class="default">
+  <p class="content"><a href="https://arxiv.org/abs/2402.10184">
+    <strong>Reward Generalization in RLHF: A Topological Perspective</strong></a>
+<p class="content">Tianyi Qiu*, Fanzhi Zeng*, Jiaming Ji*, Dong Yan*, Kaile Wang, <strong>Jiayi Zhou</strong>, Yang Han, Josef Dai, Xuehai Pan, Yaodong Yang.</p>
+<p class="content">Arxiv, 2024.</p>
+<br>
+</li>
+
+
+<li class="default">
+  <p class="content"><a href="https://openreview.net/forum?id=WZmlxIuIGR">
+      <strong>Safety-Gymnasium: A Unified Safe Reinforcement Learning Benchmark</strong></a>
+      [<a href="https://sites.google.com/view/safety-gymnasium"><strong>Website</strong></a>]
+      [<a href="https://github.com/PKU-Alignment/safety-gymnasium"><strong>GitHub</strong></a>]
+  <p class="content">Jiaming Ji*, Borong Zhang*, <strong>Jiayi Zhou*</strong>, Xuehai Pan, Weidong Huang, Ruiyang Sun, Yiran Geng, Yifan Zhong, Juntao Dai, and Yaodong Yang.</p>
+  <p class="content">Advances in Neural Information Processing Systems (NeurIPS), 2023.</p>
+  <br>
+</li>
+
+<li class="default">
+  <p class="content"><a href="https://arxiv.org/abs/2305.09304">
+      <strong>OmniSafe: An Infrastructure for Accelerating Safe Reinforcement Learning Research</strong></a>
+      [<a href="https://github.com/PKU-Alignment/omnisafe"><strong>GitHub</strong></a>]
+  <p class="content">Jiaming Ji*, <strong>Jiayi Zhou*</strong>, Borong Zhang*, Juntao Dai, Xuehai Pan, Ruiyang Sun, Weidong Huang, Yiran Geng, Mickel Liu, and Yaodong Yang.</p>
+  <p class="content">JMLR, 2024.</p>
+  <br>
+</li>
+
+
+</ul>
+
+<!-- <h2 class="label"><p class="title-large"><a name="talks"><span>Talks</span></a></p></h2> -->
+
+
+<h2 class="label"><p class="title-large"><a name="services"><span>Services</span></a></p></h2>
+<ul>
+<li><p class="content">Reviewer for NeurIPS and ICLR.</p></li>
+</ul>
+
+
+<script>
+  document.getElementById('showSelected').addEventListener('click', function() {
+      var listItems = document.querySelectorAll('#list li');
+      listItems.forEach(function(item) {
+          item.style.display = 'none';
+      });
+      var selectedItems = document.querySelectorAll('#list li.default');
+      selectedItems.forEach(function(item) {
+          item.style.display = 'list-item';
+      });
+  });
+
+  document.getElementById('showAll').addEventListener('click', function() {
+      var listItems = document.querySelectorAll('#list li');
+      listItems.forEach(function(item) {
+          item.style.display = 'list-item';
+      });
+  });
+</script>
