@@ -15,6 +15,8 @@ TODO
 
 -->
 <html><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" href="imgs/logo.jpg" type="image/png">
 <title>Jiayi Zhou's Homepage</title>
 <style type="text/css">
@@ -108,6 +110,14 @@ p {
     display: list-item; /* 显示带有 default 类的列表项 */
 }
 /* add end */
+
+.research-interests { margin: 14px 0; padding-left: 24px; }
+.research-interests li { margin-bottom: 10px; }
+.contact-note { margin-top: 16px; }
+@media (max-width: 700px) {
+    body { margin: 24px 18px; }
+}
+
 </style>
 <script type="text/javascript"> 
 function displaypage(){
@@ -150,7 +160,7 @@ $("#tag-privacy-box").click(function() {
 
 });      
 </script>     
-<meta content="text/html; charset=unicode" http-equiv="Content-Type">
+
 <meta name="GENERATOR" content="MSHTML 9.00.8112.16443"></head>
 <body>
 
@@ -173,20 +183,23 @@ $("#tag-privacy-box").click(function() {
          <tr height="20">
         <td>
            <p class="caption">Jiayi Zhou (周嘉懿)</p>
-           <p class="content"><strong>Email:</strong> gaiejj@outlook.com</p>
+           <p class="content"><strong>Email:</strong> <a href="mailto:gaiejj@outlook.com">gaiejj@outlook.com</a></p>
         </td>
       </tr>
       
+      <tr>
       <td>
       <p class="margin">&nbsp;</p>
-      <p class="content">Hello! I’m a second-year PhD student at the Institute of Artificial Intelligence, Peking University, advised by Prof. <strong style="color:red;"><a href="https://www.yangyaodong.com" style="text-decoration:none">Yaodong Yang</a></strong>.   I previously conducted research on. My past research has focused on safe reinforcement learning, with an emphasis on <a href="https://github.com/PKU-Alignment/omnisafe" style="text-decoration:none">algorithm libraries</a> and <a href="https://github.com/PKU-Alignment/safety-gymnasium" style="text-decoration:none">environment construction</a>. Now, I am broadening my focus to the fields of <b>AI Safety and Alignment</b>. Recently:
-        <br><br>
-        <li class="content"><strong><a href="https://arxiv.org/abs/2310.19852" style="text-decoration:none">AI Alignment</a></strong>: The current significant progress in AI systems, represented by Large Language Models (LLMs), does not stem from a deeper understanding of algorithms or models, but merely from the scaling up. This phenomenon may lead to a deviation of AI systems from human intentions and values, bringing about considerable safety risks. I am actively considering how to improve the trustworthiness, transparency, and safety of AI systems from three aspects: architecture, algorithms, and evaluation.
-        </li>
-        <li class="content"><strong><a href="https://arxiv.org/abs/2406.06144" style="text-decoration:none">Efficient Alignment with Rich Feedback</a></strong>: I am interested in designing more informativeh reward functions to improve alignment efficiency. In my previous research on Safe RL, I focused on designing optimization methods to ensure that agents can balance multi-dimensional reward functions, such as those related to utility and safety. With the current popularity of RLHF, I am now paying attention to how reward models can provide richer language feedback beyond scalar scores. I plan to expand my research into more impressive areas, such as large multimodal models.
-        </li>
-
-        <br>
+      <p class="content">Hello! I’m a third-year PhD student at the Institute of Artificial Intelligence, Peking University, advised by Prof. <strong><a href="https://www.yangyaodong.com" style="text-decoration:none">Yaodong Yang</a></strong>. I also work with the team at <a href="https://physis-ai.com/" style="text-decoration:none"><strong>Physis (逆矩阵科技)</strong></a>, where I help lead our evaluation efforts.</p>
+      <p class="content" style="margin-top:14px;">My research focuses on <strong>scalable oversight</strong> and <strong>world model evaluation</strong>. I am interested in how we can evaluate increasingly capable systems when direct human assessment is difficult, and how we can rigorously assess models of the physical world.</p>
+      <ul class="research-interests">
+        <li class="content"><strong>Scalable oversight.</strong> I study how to extend reliable supervision beyond what humans can easily assess, with an emphasis on structured feedback, verifiable evaluation, and oversight of complex agent behavior.</li>
+        <li class="content"><strong>World model evaluation.</strong> I focus on <strong>physical consistency</strong> and <strong>long-horizon consistency</strong>: whether predicted dynamics respect physical constraints, and whether states, interactions, and action consequences remain coherent over extended rollouts. I am interested in evaluation protocols that make these capabilities and failure modes measurable.</li>
+      </ul>
+      <p class="content">Previously, I worked on safe reinforcement learning, including <a href="https://github.com/PKU-Alignment/omnisafe" style="text-decoration:none">OmniSafe</a> and <a href="https://github.com/PKU-Alignment/safety-gymnasium" style="text-decoration:none">Safety-Gymnasium</a>.</p>
+      <p class="content contact-note">I welcome research discussions and potential collaborations on these topics. Feel free to <a href="mailto:gaiejj@outlook.com">get in touch</a>!</p>
+      </td>
+      </tr>
 
       <tr height="20">
         <td>
@@ -199,6 +212,9 @@ $("#tag-privacy-box").click(function() {
     </tbody></table></td>
   </tr>
 </tbody></table>
+
+
+
 
 <h2 class="label"><p class="title-large"><a name="publications"><span>News</span></a></p></h2>
 <ul>
@@ -214,7 +230,7 @@ $("#tag-privacy-box").click(function() {
 
 <h2 class="label"><p class="title-large"><a name="awards"><span>Awards</span></a></p></h2>
 <ul>
-<li><p class="content">As a newly enrolled Ph.D. student, I am striving to pursue these awards.</p>
+<li><p class="content">As a Ph.D. student, I am striving to pursue these awards.</p>
 </li>
 </ul>
 
